@@ -1,0 +1,85 @@
+[33mcommit b332185780d1ae9f9c96f4e23c19b20d24c918a6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ruri.kuraori <ruri.kuraori@gmail.com>
+Date:   Fri Dec 22 17:42:33 2023 +0900
+
+    add p
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 989ed4f..535a33c 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,5 +9,6 @@[m
+         <p>Gitを使ってバージョン管理する。</p>[m
+         <img src="git-logo.png" alt="git logo">[m
+         <h2>バージョン管理続き</h2>[m
+[32m+[m[32m        <p>バージョン管理の続きです</p>[m
+     </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 548dd7658c8c391e238e3e71ed1adadc32baa81b[m
+Author: ruri.kuraori <ruri.kuraori@gmail.com>
+Date:   Fri Dec 22 17:39:29 2023 +0900
+
+    add h2
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex f8bf2f8..989ed4f 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,5 +8,6 @@[m
+         <h1>はじめてのバージョン管理</h1>[m
+         <p>Gitを使ってバージョン管理する。</p>[m
+         <img src="git-logo.png" alt="git logo">[m
+[32m+[m[32m        <h2>バージョン管理続き</h2>[m
+     </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 3c21687271f3e1ce28e408995fe3145577ac42e7[m
+Author: ruri.kuraori <ruri.kuraori@gmail.com>
+Date:   Thu Dec 21 21:02:38 2023 +0900
+
+    add git-logo image
+
+[1mdiff --git a/git-logo.png b/git-logo.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4f5a7c2[m
+Binary files /dev/null and b/git-logo.png differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex ecbe19a..f8bf2f8 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,5 +7,6 @@[m
+     <body>[m
+         <h1>はじめてのバージョン管理</h1>[m
+         <p>Gitを使ってバージョン管理する。</p>[m
+[32m+[m[32m        <img src="git-logo.png" alt="git logo">[m
+     </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 9609e8f7eb2fc0f0000e1a56ff0d5e64389b05e0[m
+Author: ruri.kuraori <ruri.kuraori@gmail.com>
+Date:   Thu Dec 21 20:49:50 2023 +0900
+
+    first commit
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ecbe19a[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="ja">[m
+[32m+[m[32m    <head>[m
+[32m+[m[32m        <meta charset="utf-8">[m
+[32m+[m[32m        <title>Gitチュートリアル</title>[m
+[32m+[m[32m    </head>[m
+[32m+[m[32m    <body>[m
+[32m+[m[32m        <h1>はじめてのバージョン管理</h1>[m
+[32m+[m[32m        <p>Gitを使ってバージョン管理する。</p>[m
+[32m+[m[32m    </body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
